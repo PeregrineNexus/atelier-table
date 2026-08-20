@@ -1,0 +1,55 @@
+{
+  "weekNumber": 1,
+  "title": "香煎脆皮鸡腿排套餐",
+  "status": "not_started",
+  "estimatedMinutes": 120,
+  "firstAttemptBufferMinutes": 30,
+  "learningGoals": [
+    "通过擦干、冷藏风干和低温逼油获得较脆的鸡皮",
+    "结合声音、颜色、触感和中心温度判断鸡腿火候",
+    "制作细腻、顺滑且不过度黏稠的奶油土豆泥",
+    "控制芦笋、西兰花与蘑菇的熟度和焦香",
+    "使用主次、颜色、高低和留白完成基础西餐摆盘"
+  ],
+  "fridayPrep": [
+    {
+      "id": "prep-chicken",
+      "title": "处理并冷藏风干鸡腿",
+      "estimatedMinutes": 15,
+      "details": "去除松散多余脂肪，擦干后按鸡肉重量约 1% 撒盐，鸡皮朝上无盖冷藏 8～24 小时。"
+    },
+    {
+      "id": "prep-inventory",
+      "title": "核对食材和工具",
+      "estimatedMinutes": 10,
+      "details": "确认黄油、牛奶、淡奶油、鸡高汤、食品温度计和两个温热用餐盘。"
+    },
+    {
+      "id": "prep-vegetables",
+      "title": "初步整理蔬菜",
+      "estimatedMinutes": 10,
+      "details": "清理蘑菇表面泥土；西兰花切成大小接近的小朵并充分沥干。"
+    }
+  ],
+  "weekendSchedule": [
+    { "startMinute": 0, "endMinute": 15, "task": "回温鸡腿、处理全部食材并烧水" },
+    { "startMinute": 15, "endMinute": 40, "task": "煮土豆，同时开始煎鸡腿的鸡皮面" },
+    { "startMinute": 35, "endMinute": 55, "task": "完成鸡腿熟化并制作土豆泥" },
+    { "startMinute": 55, "endMinute": 70, "task": "静置鸡腿并焦香蘑菇" },
+    { "startMinute": 70, "endMinute": 80, "task": "制作少量鸡肉锅汁" },
+    { "startMinute": 75, "endMinute": 90, "task": "完成芦笋和西兰花" },
+    { "startMinute": 90, "endMinute": 100, "task": "最终检查并温盘" },
+    { "startMinute": 100, "endMinute": 110, "task": "摆盘并上桌" },
+    { "startMinute": 110, "endMinute": 140, "task": "清理与复盘" }
+  ],
+  "recipeIds": ["crispy-chicken-thigh-set"],
+  "reviewPrompts": [
+    "鸡皮脆度是否均匀，有没有局部潮湿或焦苦？",
+    "鸡腿最厚处测得多少度，肉质是否多汁？",
+    "土豆泥是否细腻、顺滑且不过黏？",
+    "蔬菜是否鲜绿，蘑菇是否形成焦香面？",
+    "锅汁是否只起辅助作用？",
+    "鸡腿是否是视觉主体，餐盘是否保留足够空白？",
+    "哪一步最容易造成等待或手忙脚乱？"
+  ]
+}
