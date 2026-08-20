@@ -87,6 +87,14 @@ export type Recipe = {
     steps: string[];
     avoid: string[];
   };
+  inspirationImages: Array<{
+    id: string;
+    title: string;
+    style: string;
+    description: string;
+    image: string;
+    layoutSteps: string[];
+  }>;
   safety: {
     minimumPoultryTemperatureC: number;
     minimumPoultryTemperatureF: number;

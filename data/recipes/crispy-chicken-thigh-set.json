@@ -1,75 +1,77 @@
 {
   "id": "crispy-chicken-thigh-set",
   "name": "香煎脆皮鸡腿排套餐",
-  "subtitle": "奶油土豆泥、黄油芦笋、西兰花、焦香蘑菇与少量鸡肉锅汁",
+  "subtitle": "奶油土豆泥、黄油芦笋、西兰花、焦香蘑菇与家庭版鸡汁 Jus",
   "category": "main-chicken",
   "difficulty": "beginner",
   "servings": 2,
-  "estimatedMinutes": 110,
+  "estimatedMinutes": 120,
   "coverImage": "assets/images/week-01-crispy-chicken-cover.jpg",
   "techniqueTags": [
     "鸡皮脆化",
-    "平底锅煎制",
-    "土豆泥",
-    "蔬菜焯水",
-    "蘑菇焦化",
-    "基础锅汁",
-    "分区摆盘"
+    "Searing 平底锅煎制",
+    "Butter Basting 黄油淋油",
+    "Purée 奶油泥",
+    "蔬菜熟度",
+    "Jus 基础鸡汁",
+    "Modern Bistro 摆盘"
   ],
   "ingredients": [
     {
       "id": "chicken",
       "name": "主菜",
       "items": [
-        { "name": "去骨带皮鸡腿", "amount": 2, "unit": "块", "displayAmount": "共约 450～520 g", "note": "大小、厚度尽量接近" },
-        { "name": "细盐", "amount": 5, "unit": "g", "displayAmount": "约 5 g", "note": "约为鸡肉重量的 1%" },
-        { "name": "黑胡椒", "amount": 1, "unit": "g", "displayAmount": "约 1 g", "note": "鸡皮面少量使用" },
-        { "name": "中性油", "amount": 5, "unit": "ml", "displayAmount": "约 1 茶匙", "note": "不粘锅可省略" }
+        { "name": "原味带皮去骨鸡腿排", "amount": 500, "unit": "g", "displayAmount": "500 g", "note": "无预腌制，大小与厚度尽量接近" },
+        { "name": "细盐", "amount": 4, "unit": "g", "displayAmount": "4 g", "note": "用于 Dry Brine 干腌" },
+        { "name": "黑胡椒", "amount": 1, "unit": "g", "displayAmount": "1 g", "note": "鸡皮面少量使用" },
+        { "name": "橄榄油", "amount": 5, "unit": "g", "displayAmount": "5 g", "note": "冷锅起煎使用" },
+        { "name": "无盐黄油", "amount": 15, "unit": "g", "displayAmount": "15 g", "note": "Butter Basting 使用" },
+        { "name": "大蒜", "amount": 8, "unit": "g", "displayAmount": "8 g，约 2 瓣", "note": "拍碎，不切末" },
+        { "name": "百里香", "amount": 3, "unit": "枝", "displayAmount": "2～3 枝", "note": "Butter Basting 使用" }
       ]
     },
     {
       "id": "mashed-potato",
       "name": "奶油土豆泥",
       "items": [
-        { "name": "粉质土豆", "amount": 500, "unit": "g", "displayAmount": "500 g", "note": "去皮后约 430～450 g" },
-        { "name": "无盐黄油", "amount": 50, "unit": "g", "displayAmount": "50 g", "note": "切小块" },
-        { "name": "全脂牛奶", "amount": 90, "unit": "ml", "displayAmount": "90 ml", "note": "使用前加热" },
-        { "name": "淡奶油", "amount": 30, "unit": "ml", "displayAmount": "30 ml", "note": "可用等量全脂牛奶替代" },
-        { "name": "细盐", "amount": 5, "unit": "g", "displayAmount": "约 5 g 起", "note": "最终按口味调整" },
-        { "name": "白胡椒或黑胡椒", "amount": null, "unit": null, "displayAmount": "少量", "note": "可选" }
+        { "name": "黄心土豆", "amount": 400, "unit": "g", "displayAmount": "400 g", "note": "去皮后切成约 3 cm 块" },
+        { "name": "无盐黄油", "amount": 35, "unit": "g", "displayAmount": "35 g", "note": "切小块" },
+        { "name": "淡奶油", "amount": 60, "unit": "g", "displayAmount": "60 g", "note": "与牛奶一起温热" },
+        { "name": "全脂牛奶", "amount": 40, "unit": "g", "displayAmount": "30～50 g", "note": "分次加入，以状态为准" },
+        { "name": "细盐", "amount": 3, "unit": "g", "displayAmount": "3 g", "note": "最终按口味调整" },
+        { "name": "白胡椒或肉豆蔻粉", "amount": null, "unit": null, "displayAmount": "少量", "note": "可选" }
       ]
     },
     {
       "id": "vegetables",
       "name": "蔬菜",
       "items": [
-        { "name": "芦笋", "amount": 160, "unit": "g", "displayAmount": "160 g，约 8～10 根", "note": "去除老根" },
-        { "name": "西兰花", "amount": 180, "unit": "g", "displayAmount": "180 g", "note": "切成大小接近的小朵" },
-        { "name": "褐蘑菇或口蘑", "amount": 200, "unit": "g", "displayAmount": "200 g", "note": "对半切，较大的切成四块" },
-        { "name": "无盐黄油", "amount": 35, "unit": "g", "displayAmount": "35 g", "note": "蘑菇和绿色蔬菜共用" },
-        { "name": "中性油", "amount": 15, "unit": "ml", "displayAmount": "15 ml", "note": "分次使用" },
-        { "name": "蒜", "amount": 1, "unit": "瓣", "displayAmount": "1 瓣", "note": "轻拍裂，不切末" },
-        { "name": "百里香", "amount": 2, "unit": "枝", "displayAmount": "2 枝", "note": "可选" },
-        { "name": "细盐", "amount": 3, "unit": "g", "displayAmount": "约 3 g", "note": "分次使用" },
-        { "name": "黑胡椒", "amount": null, "unit": null, "displayAmount": "少量", "note": "蘑菇使用" }
+        { "name": "芦笋", "amount": 200, "unit": "g", "displayAmount": "200 g", "note": "去除老根" },
+        { "name": "西兰花", "amount": 200, "unit": "g", "displayAmount": "200 g", "note": "切成大小接近的小朵" },
+        { "name": "口蘑", "amount": 180, "unit": "g", "displayAmount": "180 g", "note": "对半切，较大的切成四块" },
+        { "name": "橄榄油", "amount": 10, "unit": "g", "displayAmount": "10 g", "note": "芦笋与蘑菇各用 5 g" },
+        { "name": "无盐黄油", "amount": 17, "unit": "g", "displayAmount": "17 g", "note": "芦笋 5 g，蘑菇 12 g" },
+        { "name": "大蒜", "amount": 4, "unit": "g", "displayAmount": "4 g", "note": "蘑菇使用" },
+        { "name": "细盐", "amount": 2.5, "unit": "g", "displayAmount": "2.5 g", "note": "芦笋 1 g，蘑菇 1.5 g；焯西兰花的盐水另计" },
+        { "name": "黑胡椒", "amount": 0.5, "unit": "g", "displayAmount": "0.5 g", "note": "蘑菇使用" }
       ]
     },
     {
       "id": "pan-sauce",
-      "name": "少量鸡肉锅汁",
+      "name": "家庭版鸡汁 Jus",
       "items": [
-        { "name": "红葱头或小洋葱", "amount": 20, "unit": "g", "displayAmount": "20 g", "note": "切细末" },
-        { "name": "无盐鸡高汤", "amount": 120, "unit": "ml", "displayAmount": "120 ml", "note": "选择低盐版本" },
-        { "name": "干白葡萄酒", "amount": 40, "unit": "ml", "displayAmount": "40 ml", "note": "可选；不用时增加等量鸡高汤" },
-        { "name": "无盐黄油", "amount": 15, "unit": "g", "displayAmount": "15 g", "note": "冷藏，离火加入" },
-        { "name": "柠檬汁", "amount": 5, "unit": "ml", "displayAmount": "约 1 茶匙", "note": "按酸度调整" },
-        { "name": "细盐", "amount": null, "unit": null, "displayAmount": "少量", "note": "高汤收浓后再判断" }
+        { "name": "洋葱", "amount": 40, "unit": "g", "displayAmount": "40 g", "note": "切细末" },
+        { "name": "浓缩鸡汁", "amount": 12.5, "unit": "g", "displayAmount": "10～15 g", "note": "替代鸡高汤；先少后多，避免过咸" },
+        { "name": "温水", "amount": 200, "unit": "ml", "displayAmount": "200 ml", "note": "与浓缩鸡汁混合" },
+        { "name": "干白葡萄酒", "amount": 35, "unit": "ml", "displayAmount": "30～40 ml", "note": "可选" },
+        { "name": "百里香", "amount": 1, "unit": "枝", "displayAmount": "1 枝", "note": "收汁时加入" },
+        { "name": "无盐黄油", "amount": 10, "unit": "g", "displayAmount": "10 g", "note": "冷藏，关火后乳化" }
       ]
     }
   ],
   "equipment": {
     "required": [
-      "24～28 cm 厚底平底锅",
+      "26～28 cm 厚底平底锅",
       "煮土豆和焯蔬菜用锅",
       "夹子或锅铲",
       "厨房纸",
@@ -92,134 +94,108 @@
   },
   "advancePrep": [
     {
-      "title": "鸡腿冷藏风干",
-      "leadTime": "8～24 小时",
+      "title": "鸡腿解冻、干腌与冷藏风干",
+      "leadTime": "提前 1 天解冻；干腌 20 分钟或冷藏数小时",
       "instructions": [
+        "冷冻鸡腿提前一天移入冰箱冷藏解冻，不用热水或长时间室温解冻。",
         "剪去松散的多余脂肪，保留完整鸡皮。",
         "把肉面较厚处轻轻划开或摊平，不要划破鸡皮。",
-        "两面彻底按干，均匀撒盐；黑胡椒先只撒肉面。",
-        "鸡皮朝上放在晾架上，无盖置于冰箱最下层冷藏。"
+        "两面彻底按干，500 g 鸡腿均匀撒 4 g 盐和 1 g 黑胡椒。",
+        "至少静置 20 分钟；时间允许时鸡皮朝上无盖冷藏数小时，制作前不重复加盐。"
       ]
     }
   ],
   "steps": [
     {
-      "id": "mise-en-place",
+      "id": "prepare-chicken",
       "order": 1,
-      "title": "回温与最终备料",
-      "estimatedMinutes": 15,
-      "instructions": [
-        "鸡腿取出 15～20 分钟，再次按干鸡皮。",
-        "土豆去皮切成约 3 cm 均匀块。",
-        "芦笋去老根，西兰花保持大小接近，蘑菇对半切，红葱头切细末。",
-        "牛奶与淡奶油混合加热至边缘冒热气，不要煮沸。"
-      ],
-      "donenessCue": "所有食材按使用顺序摆好，鸡皮摸起来干爽无水珠。",
-      "critical": false
-    },
-    {
-      "id": "boil-potatoes",
-      "order": 2,
-      "title": "煮土豆",
+      "title": "鸡腿准备与 Dry Brine",
       "estimatedMinutes": 20,
       "instructions": [
-        "土豆加冷水至没过约 2 cm，并加入足量盐。",
-        "煮沸后转中小火，稳定煮 15～20 分钟。",
-        "小刀刺入最大土豆块几乎没有阻力时沥干。",
-        "土豆放回热锅，小火晃动 30～60 秒蒸干表面水汽，关火。"
+        "冷冻鸡腿提前一天放入冰箱冷藏解冻，不使用热水，也不在室温长时间放置。",
+        "用厨房纸把两面彻底按干，重点吸干鸡皮；有时间可提前数小时鸡皮朝上无盖冷藏。",
+        "剪去多余筋膜与过厚脂肪，保留适量鸡油；鸡皮可轻划 2～3 刀，但不要切到肉。",
+        "500 g 鸡腿均匀撒 4 g 盐和 1 g 黑胡椒，静置 20 分钟；已提前干腌时只需再次擦干，不重复加盐。"
       ],
-      "donenessCue": "土豆内部完全软化，表面干爽、边缘略起粉。",
+      "donenessCue": "鸡皮摸起来干爽无水珠，鸡腿厚度大致均匀，调味分布均匀。",
       "critical": false
     },
     {
       "id": "sear-chicken",
-      "order": 3,
-      "title": "低温逼油，煎脆鸡皮",
+      "order": 2,
+      "title": "煎鸡腿与 Butter Basting",
       "estimatedMinutes": 25,
-      "heat": "中小火起步，保持柔和稳定的煎制声",
+      "heat": "鸡皮面中小火，肉面基本熟后才进行黄油淋油",
       "safeInternalTemperatureC": 74,
       "instructions": [
-        "锅内薄抹中性油，鸡皮朝下放入冷锅或微温锅。",
-        "开中小火，前 30 秒轻压最厚处，使鸡皮贴合锅面。",
-        "鸡皮面煎 12～16 分钟；前 3 分钟不移动，之后偶尔调整位置。",
-        "鸡油过多时倒出，只保留约 1 汤匙。鸡皮均匀深金黄后翻面。",
-        "肉面煎约 4～7 分钟，可加入蒜和百里香，用少量油脂淋肉面。",
-        "温度计从侧面插入最厚处，达到至少 74°C 后出锅。",
-        "鸡皮朝上静置 5～8 分钟，不要覆盖。"
+        "冷锅加入 5 g 橄榄油，鸡皮朝下放入；开中小火，前 30 秒轻压鸡腿使鸡皮贴合锅面。",
+        "鸡皮面煎 7～10 分钟，期间不要频繁移动；达到金黄、平整、酥脆后翻面。",
+        "肉面煎 3～5 分钟。Butter Basting 不是用来把鸡腿做熟：若肉面仍明显未熟，先继续正常煎制，接近完成后再进入淋油阶段。",
+        "加入 15 g 无盐黄油、8 g 拍碎大蒜和 2～3 枝百里香，等待 10～15 秒，让黄油完全融化并开始起细泡。",
+        "倾斜锅，用汤匙反复舀起香草黄油淋在肉面与鸡腿边缘，持续 60～90 秒；不要大量淋在鸡皮上。",
+        "黄油呈淡褐色并有榛果香、大蒜有香气但未焦黑、百里香释放香味时停止。",
+        "从侧面测量最厚处，确认达到至少 74°C 后出锅；鸡皮朝上静置 5～8 分钟，不要盖紧。"
       ],
-      "donenessCue": "鸡皮大面积深金黄且触感坚挺，鸡肉最厚处达到至少 74°C。",
+      "donenessCue": "鸡皮金黄酥脆、鸡肉表面油亮，黄油淡褐而不焦；鸡腿最厚处达到至少 74°C。",
       "critical": true
+    },
+    {
+      "id": "cook-vegetables",
+      "order": 3,
+      "title": "完成蘑菇、芦笋与西兰花",
+      "estimatedMinutes": 25,
+      "heat": "蘑菇中高火，芦笋中火，西兰花沸水焯熟",
+      "instructions": [
+        "先做蘑菇：中高火加 5 g 橄榄油，蘑菇切面朝下单层铺开，前 2 分钟不移动。",
+        "蘑菇出现金棕色后，加入 12 g 黄油、4 g 大蒜、1.5 g 盐和 0.5 g 黑胡椒，翻炒 30～45 秒后盛出。",
+        "再做芦笋：中火加 5 g 橄榄油，芦笋煎 2～3 分钟；加入 5 g 黄油和 1 g 盐，再翻动 30 秒后盛出。",
+        "最后做西兰花：沸水按每升水 8～10 g 盐调味，焯 60～90 秒，立即捞出并充分沥水。"
+      ],
+      "donenessCue": "蘑菇焦香饱满、芦笋有轻微焦痕且仍脆、西兰花鲜绿不过软。",
+      "critical": false
     },
     {
       "id": "make-mash",
       "order": 4,
       "title": "制作奶油土豆泥",
-      "estimatedMinutes": 10,
+      "estimatedMinutes": 25,
       "instructions": [
-        "热土豆用压泥器压碎，追求细腻时再过细孔滤网一次。",
-        "先加入黄油，轻拌至吸收。",
-        "热牛奶和淡奶油分 3 次加入，每次吸收后再继续。",
-        "加盐和少量胡椒；太厚时每次补 1 汤匙热牛奶。",
-        "贴面盖好并温暖保温，不持续大火加热。"
+        "400 g 土豆去皮切成约 3 cm 块，冷水下锅并加 5 g 盐，煮沸后转中小火煮 15～20 分钟。",
+        "小刀能无阻力刺入最大土豆块时沥干，放回锅中小火晃动 1～2 分钟蒸掉表面水分。",
+        "趁热用压泥器压碎，先加入 35 g 无盐黄油轻拌至吸收。",
+        "将 60 g 淡奶油与 30～50 g 牛奶温热，分次加入土豆泥；每次吸收后再继续。",
+        "加入 3 g 盐，可用少量白胡椒或肉豆蔻粉调味；不要使用料理机，也不要过度搅拌。"
       ],
-      "donenessCue": "刮刀纹路清楚但边缘缓慢回落，舀起能成柔软圆丘且无明显颗粒。",
-      "critical": false
-    },
-    {
-      "id": "sear-mushrooms",
-      "order": 5,
-      "title": "焦香蘑菇",
-      "estimatedMinutes": 6,
-      "heat": "中大火",
-      "instructions": [
-        "倒掉鸡锅中过多脂肪，保留约 1 汤匙，擦去发黑碎屑。",
-        "锅重新烧热，蘑菇切面朝下单层铺开，必要时分批。",
-        "前 2 分钟不翻动，底面深金黄后翻面。",
-        "加入约 10 g 黄油、少量盐和黑胡椒，再炒 1～2 分钟。"
-      ],
-      "donenessCue": "切面呈棕色焦香，蘑菇缩小但仍饱满，锅中无大量水分。",
+      "donenessCue": "土豆泥细腻顺滑、有光泽、不发黏，能用汤匙拖出清晰形状。",
       "critical": false
     },
     {
       "id": "make-pan-sauce",
-      "order": 6,
-      "title": "制作少量鸡肉锅汁",
-      "estimatedMinutes": 10,
+      "order": 5,
+      "title": "制作家庭版鸡汁 Jus",
+      "estimatedMinutes": 15,
       "heat": "中火收浓，黄油离火加入",
       "instructions": [
-        "锅内仅保留约 1 茶匙脂肪，红葱头炒 30～45 秒。",
-        "加入白葡萄酒并刮起锅底精华，收至约一半；不用酒时直接加入高汤。",
-        "加入鸡高汤，中火收至约 60～70 ml。",
-        "关火，加入冷黄油晃锅乳化，再用少量柠檬汁调整酸度。",
-        "先尝味再决定是否加盐，需要时过滤。"
+        "保留鸡腿锅中的棕色焦化物，不要洗锅；擦去发黑发苦的碎屑。",
+        "加入 40 g 洋葱，中小火炒 1～2 分钟至变软。",
+        "加入 30～40 ml 白葡萄酒去釉，刮起锅底精华并收至约一半；不用酒时以少量温水去釉。",
+        "将 10～15 g 浓缩鸡汁与 200 ml 温水混合后倒入锅中，加入 1 枝百里香。",
+        "中火收 6～10 分钟，从约 200 ml 收至 80～100 ml；期间试味，避免浓缩后过咸。",
+        "关火，加入 10 g 冷黄油晃锅乳化，按需要过滤。"
       ],
-      "donenessCue": "锅汁能薄薄挂住勺背，鲜味、酸度和黄油感平衡，不过咸或黏稠。",
-      "critical": false
-    },
-    {
-      "id": "cook-green-vegetables",
-      "order": 7,
-      "title": "完成芦笋与西兰花",
-      "estimatedMinutes": 8,
-      "instructions": [
-        "沸水加盐，西兰花先焯 60～90 秒。",
-        "加入芦笋，再一起焯 60～90 秒后捞出，充分沥水。",
-        "中火将约 5 ml 中性油和 15 g 黄油加热。",
-        "加入蔬菜快速翻动 1～2 分钟，用少量盐调味。"
-      ],
-      "donenessCue": "颜色鲜绿，刀尖可进入但仍有轻微阻力，表面有光泽且不出水。",
+      "donenessCue": "鸡汁鲜味明显、轻微挂勺、不过咸，黄油完全融合且没有油水分离。",
       "critical": false
     },
     {
       "id": "final-check",
-      "order": 8,
+      "order": 6,
       "title": "最终检查并摆盘",
       "estimatedMinutes": 10,
       "instructions": [
         "确认鸡腿最厚处至少 74°C，鸡皮保持朝上。",
         "必要时用少量热牛奶恢复土豆泥柔软度。",
         "确认蘑菇有焦色，蔬菜鲜绿干爽，锅汁温热不过咸。",
-        "温热并擦干餐盘，按摆盘指南完成两盘。"
+        "温热并擦干 27 cm 白色浅盘，按 Modern Bistro 摆盘指南完成两盘。"
       ],
       "donenessCue": "所有组件温热、质地正确，盘边干净，鸡皮未接触锅汁。",
       "critical": true
@@ -229,9 +205,11 @@
     "鸡皮的三个关键点是干燥、较低火力充分逼油，以及静置时保持朝上不覆盖。",
     "煎制时间仅供参考，锅具、鸡腿厚度和初始温度都会改变时间。",
     "禽肉必须用温度计确认最厚处达到至少 74°C，不能只看肉色或肉汁。",
+    "Butter Basting 是鸡腿基本完成后的 60～90 秒增香步骤，不靠淋黄油把鸡腿做熟。",
+    "淋油集中在肉面和鸡腿边缘，不大量淋鸡皮；黄油淡褐、有榛果香时立即停止。",
     "土豆泥的液体必须加热并分次加入，避免突然变稀。",
     "蘑菇需要单层接触热锅，上色前不要加盐或频繁翻动。",
-    "绿色蔬菜安排在最后完成，减少长时间保温造成的发黄和软烂。"
+    "浓缩鸡汁含盐量不同，先用 10 g 与温水混合，收汁后再判断是否增加。"
   ],
   "commonMistakes": [
     {
@@ -245,6 +223,12 @@
       "causes": ["鸡腿厚度不均", "火力过高"],
       "rescue": "翻至肉面后小火短时间加盖熟化，用温度计确认；最后回煎鸡皮。",
       "nextTime": "摊平较厚位置并选择大小接近的鸡腿。"
+    },
+    {
+      "symptom": "淋油后黄油焦黑或鸡肉过熟",
+      "causes": ["肉面尚未基本熟就开始淋油", "淋油持续数分钟", "火力过大导致黄油与大蒜焦化"],
+      "rescue": "立即停止淋油并将鸡腿出锅；弃掉发黑黄油，避免把焦苦油脂浇回鸡肉。",
+      "nextTime": "先完成常规煎制，只在最后用淡褐色香草黄油淋肉面 60～90 秒。"
     },
     {
       "symptom": "土豆泥发黏",
@@ -266,15 +250,15 @@
     }
   ],
   "platingGuide": {
-    "plate": "26～28 cm 白色或浅灰色圆盘",
+    "plate": "约 27 cm 白色浅盘",
     "principles": ["鸡腿是视觉主体", "鸡腿与土豆泥分开", "锅汁不接触鸡皮", "至少保留约三分之一留白"],
     "steps": [
-      "在左下或 7～8 点方向放约 2 大勺土豆泥，用勺背向中心轻推一次。",
-      "鸡腿整块或切成 3～4 段后保持原顺序，放在右上或 1～2 点方向，鸡皮朝上。",
-      "3～4 根芦笋顺同一方向排列，在土豆泥与鸡腿之间形成连接线。",
-      "2～3 小朵西兰花集中放在土豆泥和芦笋附近，保留高低变化。",
-      "3～4 块蘑菇焦香面朝上，靠近鸡腿但不平均散满一圈。",
-      "每盘只用约 1～1.5 汤匙锅汁，放在鸡腿旁或少量鸡肉下方。",
+      "在 7～10 点方向放 130～150 g 土豆泥，用汤匙拖出 10～12 cm 弧线。",
+      "沿土豆泥弧线方向放约 3 根芦笋，形成清楚的视觉引导。",
+      "在芦笋与土豆泥附近集中放 2～3 小朵西兰花，利用高度增加层次。",
+      "放 3～5 块蘑菇，焦香面朝上，不要平均散满一圈。",
+      "鸡腿放在 4～5 点方向，鸡皮朝上，并与土豆泥保持分开。",
+      "每盘使用 20～30 ml 鸡汁：少量放在鸡腿底部形成浅汁池，其余只作点缀，绝不接触鸡皮。",
       "擦净盘边，检查留白、颜色分区与视觉方向。"
     ],
     "avoid": [
@@ -291,5 +275,54 @@
     "sourceName": "USDA Food Safety and Inspection Service — Safe Minimum Internal Temperature Chart",
     "sourceUrl": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
   },
-  "inspirationImages": []
+  "inspirationImages": [
+    {
+      "id": "classic-split",
+      "title": "经典 Bistro 分区",
+      "style": "最适合第一次练习",
+      "description": "主体、配菜和酱汁分区明确，容易控制留白，也最方便观察每个组件的完成度。",
+      "image": "assets/images/week-01-crispy-chicken-cover.jpg",
+      "layoutSteps": [
+        "土豆泥放在左下，鸡腿整块放在右上，二者保持分开。",
+        "芦笋斜向连接两侧，西兰花与蘑菇分别集中成小组。",
+        "锅汁只放在鸡腿旁边，用短弧线收住视觉重心。"
+      ]
+    },
+    {
+      "id": "sliced-fan",
+      "title": "切片扇形",
+      "style": "更精致的 Fine Dining 感",
+      "description": "切片展示肉质与酥脆鸡皮，构图更紧凑，适合鸡腿静置充分且切面整齐时使用。",
+      "image": "assets/images/week-01-plating-sliced.jpg",
+      "layoutSteps": [
+        "鸡腿切成 4 段并保持原顺序，在右上轻微展开成扇形。",
+        "土豆泥做成椭圆放在左下，芦笋从中间斜向穿过。",
+        "西兰花和蘑菇靠近土豆泥成组，锅汁沿鸡肉一侧画短弧。"
+      ]
+    },
+    {
+      "id": "modern-linear",
+      "title": "现代横向线条",
+      "style": "适合椭圆盘",
+      "description": "利用左右方向和细长餐盘制造现代感，组件排列清楚，盘面上方与下方都有充足呼吸空间。",
+      "image": "assets/images/week-01-plating-linear.jpg",
+      "layoutSteps": [
+        "整块鸡腿放在左侧，土豆泥向右轻推成短条，保持距离。",
+        "芦笋沿中轴斜放，西兰花和蘑菇分别收在土豆泥两端。",
+        "在整体轴线下方放少量酱汁点和短线，不碰鸡皮。"
+      ]
+    },
+    {
+      "id": "organic-crescent",
+      "title": "自然新月弧线",
+      "style": "松弛的餐厅感",
+      "description": "配菜沿一条不规则弧线自然展开，在集中视线的同时保留更多空白，适合手工感圆盘。",
+      "image": "assets/images/week-01-plating-crescent.jpg",
+      "layoutSteps": [
+        "鸡腿放在上方，土豆泥用勺背塑成柔和水滴形放在左下。",
+        "从芦笋开始，用西兰花和蘑菇延续一条松散的新月弧线。",
+        "用 3～5 个渐小酱汁点结束弧线，避免围成完整圆圈。"
+      ]
+    }
+  ]
 }

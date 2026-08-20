@@ -64,7 +64,7 @@ export function HomePage() {
           </div>
           <h2 id="current-course-title">{weekOne.title}</h2>
           <p className="course-summary">
-            脆皮鸡腿排、奶油土豆泥、黄油芦笋、西兰花、焦香蘑菇与少量鸡肉锅汁。
+            脆皮鸡腿排、奶油土豆泥、黄油芦笋、西兰花、焦香蘑菇与家庭版鸡汁 Jus。
           </p>
           <div className="meta-grid" aria-label="课程信息">
             <span>

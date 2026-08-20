@@ -1949,6 +1949,87 @@ summary:focus-visible {
   line-height: 1.55;
 }
 
+.plating-inspiration {
+  display: grid;
+  gap: 30px;
+}
+
+.plating-ideas-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.plating-idea-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: rgb(255 253 248 / 72%);
+}
+
+.plating-idea-image {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  background: #dedbd2;
+}
+
+.plating-idea-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 350ms ease;
+}
+
+.plating-idea-card:hover .plating-idea-image img {
+  transform: scale(1.025);
+}
+
+.plating-idea-copy {
+  padding: 24px;
+}
+
+.plating-idea-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.plating-idea-meta > span:first-child {
+  color: var(--warm);
+  font-size: 0.68rem;
+  font-weight: 750;
+  letter-spacing: 0.1em;
+}
+
+.plating-idea-copy h3 {
+  margin-bottom: 9px;
+  font-size: 1.4rem;
+}
+
+.plating-idea-copy > p {
+  min-height: 46px;
+  margin-bottom: 17px;
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  line-height: 1.65;
+}
+
+.plating-idea-copy ol {
+  display: grid;
+  gap: 8px;
+  padding-left: 20px;
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.plating-idea-copy li {
+  padding-left: 4px;
+  font-size: 0.74rem;
+  line-height: 1.55;
+}
+
 .recipe-footer-note {
   display: flex;
   align-items: center;
@@ -2086,6 +2167,10 @@ summary:focus-visible {
   .recipe-hero,
   .recipe-callout,
   .plating-section {
+    grid-template-columns: 1fr;
+  }
+
+  .plating-ideas-grid {
     grid-template-columns: 1fr;
   }
 

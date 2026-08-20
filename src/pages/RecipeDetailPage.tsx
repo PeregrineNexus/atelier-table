@@ -289,6 +289,40 @@ export function RecipeDetailPage() {
         </div>
       </section>
 
+      <section
+        className="recipe-section plating-inspiration"
+        aria-labelledby="plating-inspiration-title"
+      >
+        <SectionHeading
+          eyebrow="PLATING VARIATIONS"
+          title="四种摆盘思路，同一组食材也能有不同性格。"
+          description="先选最符合你当前熟练度的一种。每次只改变构图，不增加额外食材。"
+          titleId="plating-inspiration-title"
+        />
+        <div className="plating-ideas-grid">
+          {recipe.inspirationImages.map((idea, index) => (
+            <article className="plating-idea-card" key={idea.id}>
+              <div className="plating-idea-image">
+                <img src={idea.image} alt={`${idea.title}摆盘参考`} loading="lazy" />
+              </div>
+              <div className="plating-idea-copy">
+                <div className="plating-idea-meta">
+                  <span>方案 {String(index + 1).padStart(2, "0")}</span>
+                  <Tag tone="olive">{idea.style}</Tag>
+                </div>
+                <h3>{idea.title}</h3>
+                <p>{idea.description}</p>
+                <ol>
+                  {idea.layoutSteps.map((step) => (
+                    <li key={step}>{step}</li>
+                  ))}
+                </ol>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
       <footer className="recipe-footer-note">
         <ShoppingBasket aria-hidden="true" size={20} />
         <p>第一次制作以完成和记录为主。下次只选择一到两个最需要改善的点。</p>

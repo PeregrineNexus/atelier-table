@@ -1,13 +1,27 @@
 import courseWeekJson from "../../data/course-weeks/week-01.json";
 import recipeJson from "../../data/recipes/crispy-chicken-thigh-set.json";
 import coverImage from "../../assets/images/week-01-crispy-chicken-cover.jpg";
+import platingCrescentImage from "../../assets/images/week-01-plating-crescent.jpg";
+import platingLinearImage from "../../assets/images/week-01-plating-linear.jpg";
+import platingSlicedImage from "../../assets/images/week-01-plating-sliced.jpg";
 import type { CoursePreview, CourseWeek, Recipe } from "../types";
 
 export const weekOne = courseWeekJson as CourseWeek;
 
+const platingImages: Record<string, string> = {
+  "classic-split": coverImage,
+  "sliced-fan": platingSlicedImage,
+  "modern-linear": platingLinearImage,
+  "organic-crescent": platingCrescentImage,
+};
+
 export const crispyChickenRecipe = {
   ...recipeJson,
   coverImage,
+  inspirationImages: recipeJson.inspirationImages.map((idea) => ({
+    ...idea,
+    image: platingImages[idea.id],
+  })),
 } as Recipe;
 
 export const coursePlan: CoursePreview[] = [
