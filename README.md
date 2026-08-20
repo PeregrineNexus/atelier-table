@@ -2,6 +2,10 @@
 
 一个面向个人周末学习的西餐 Web App。当前版本已经接入第 1 周“香煎脆皮鸡腿排套餐”的真实课程和菜谱数据。
 
+## 在线访问
+
+[https://peregrinenexus.github.io/atelier-table/](https://peregrinenexus.github.io/atelier-table/)
+
 ## 本地运行
 
 ```bash
@@ -9,7 +13,7 @@ npm install
 npm run dev
 ```
 
-浏览器打开终端显示的本地地址，通常为 `http://localhost:5173`。
+浏览器打开终端显示的本地地址。由于项目使用 GitHub Pages 子路径，通常为 `http://localhost:5173/atelier-table/`。
 
 ## 当前页面
 
@@ -26,6 +30,10 @@ npm run dev
 - 菜谱库支持按名称或技法搜索，并包含空结果状态。
 - 桌面端使用侧边导航，移动端使用底部导航。
 - 第 2～8 周显示课程骨架和“内容准备中”状态。
+
+## 自动部署
+
+推送到 `main` 分支后，GitHub Actions 会构建应用并自动部署到 GitHub Pages。
 
 ## 数据来源
 
